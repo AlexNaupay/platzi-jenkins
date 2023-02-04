@@ -1,3 +1,7 @@
 module.exports = (a, b) => {
-  return a + b*(1);
+
+  if(b < 0){
+    b = b*(-1);
+  }
+  return a + b;
 }
